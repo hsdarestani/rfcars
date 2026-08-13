@@ -1,1 +1,0 @@
-window.RF_SHOWCASE={photos:{}};
