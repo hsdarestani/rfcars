@@ -1,0 +1,1 @@
+export async function onRequest(c){const p=c.params.path;const k=Array.isArray(p)?p.join('/'):String(p||'');const o=await c.env.CAR_IMAGES.get(k);return new Response(o?o.body:null,{status:o?200:404})}

@@ -1,1 +1,0 @@
-export async function onRequest({env}){const row=await env.DB.prepare('select 1 as ok').first();return Response.json(row)}

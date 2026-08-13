@@ -1,1 +1,0 @@
-export async function onRequestGet({env}){const data=await env.DB.prepare('SELECT id,title,price FROM cars').all();return Response.json(data)}

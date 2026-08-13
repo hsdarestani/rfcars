@@ -1,1 +1,1 @@
-// RF Cars inventory endpoint
+export { onRequest } from './[[path]].js';
