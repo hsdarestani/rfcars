@@ -1,2 +1,4 @@
+/auto / 302
+/auto/ / 302
 /autos/* /auto.html 200
 /admin /admin.html 200
