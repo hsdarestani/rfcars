@@ -1,1 +1,0 @@
-export function onRequest(){ return Response.json({hello:'world'}) }
