@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="stylesheet" href="/assets/mobile-fixes.css" />
 </head>
 <body data-page="home">
   <header class="site-header" id="top">
@@ -24,8 +25,17 @@
       <a href="#contact">Contact</a>
     </nav>
     <a class="header-cta" href="tel:+32489410417">Bel ons <span>↗</span></a>
-    <button class="menu-button" aria-label="Menu openen" aria-expanded="false">☰</button>
+    <a class="menu-button" href="#mobile-menu" aria-label="Menu openen">☰</a>
   </header>
+
+  <nav class="mobile-drawer" id="mobile-menu" aria-label="Mobiele navigatie">
+    <a class="mobile-drawer-close" href="#top" aria-label="Menu sluiten">×</a>
+    <a href="#aanbod"><span>01</span>Aanbod</a>
+    <a href="#waarom"><span>02</span>Waarom RF Cars</a>
+    <a href="#overname"><span>03</span>Overname</a>
+    <a href="#contact"><span>04</span>Contact</a>
+    <a class="mobile-drawer-call" href="tel:+32489410417">Bel ons <b>↗</b></a>
+  </nav>
 
   <main>
     <section class="hero shell">
